@@ -1,0 +1,17 @@
+class employee{
+	String name;
+	int yj;
+	int salary;
+	
+	employee(String name,int yearofjoin,int salary){
+		this.name=name;
+		yj=yearofjoin;
+		this.salary=salary;
+		
+	}
+}
+public class constructor {
+
+	public static void main(String[] args) {
+		employee e= new employee("tanish",2018,200000);
+		System.out.println(e.name+ " " + e.yj+" " + e.salary);
