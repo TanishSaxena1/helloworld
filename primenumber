@@ -21,7 +21,7 @@ public class Primenumber {
 			System.out.println("not prime");
 		}
 		
-		// TODO Auto-generated method stub
+		
 
 	}
 
